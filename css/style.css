@@ -9,22 +9,20 @@ Make sure to learn what the starter code does!!
 */
 
 /*STARTER CODE - DO NOT CHANGE*/
-main{
+main {
   margin-bottom: 100px;
 }
 
-caption{
+caption {
   margin:5px 0px;
 }
 
-tr{
+tr {
   -webkit-transition: background-color 0.5s ease;
   transition: background-color 0.5s ease;
 }
-
 /*END STARTER CODE*/
-
-body{
+body {
   font-family: 'Andika', sans-serif;
   color: #000000;
   font-size: 16px;
@@ -37,7 +35,7 @@ body{
   /*Req 1*/
 }
 
-h1{
+h1 {
   color: #c12258;
   font-size: 2em;
   text-align: center;
@@ -45,12 +43,12 @@ h1{
   /*Req 2*/
 }
 
-p{
+p {
   padding: 15px 0px 0px 0px;
   /*Req 3*/
 }
 
-a{
+a {
   color:#B21F50;
   font-size: 16px;
   text-decoration-style: wavy;
@@ -66,14 +64,14 @@ a{
 }
 
 /*Req 6a*/
-td{
+td {
   padding:10px;
   text-align: center;
   border-top: 2px solid black;
 }
 
 /*Req 6b*/
-.colhead{
+.colhead {
   background-color :#7e0820;
   text-transform: uppercase;
   min-width: 125px;
@@ -85,7 +83,7 @@ td{
 
 }
 /*Req 6c*/
-.rowhead{
+.rowhead {
   border:2px solid black;
   border-left: inherit;
   border-bottom: inherit;
@@ -93,7 +91,7 @@ td{
 }
 
 /*Req 6d*/
-tr:nth-child(odd) {
+tr:nth-child(odd){
   background-color: transparent;
 }
 /*Req 6e*/
@@ -105,7 +103,6 @@ tr:hover{
 }
 /*Req 6f*/
 
-
 /*Req 7*/
 table{
   margin: 0 auto;
@@ -113,6 +110,25 @@ table{
   border-radius: 10px;
 }
 
+thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+}
+
+thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+tbody tr:last-child th {
+  border-bottom-left-radius: 10px;
+}
+
+tbody tr:last-child td:last-child {
+  border-bottom-right-radius: 10px;
+}
+
+/* tr {
+  border-top: 2px solid #000000;
+} */
 
 /*Req 8*/
 footer{
